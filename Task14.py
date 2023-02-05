@@ -5,6 +5,6 @@
 N = int(input("Введите число N: "))
 res = 1
 while res <= N:
-    print(res)
+    print(res, end = " ")
     res *= 2
-    
+print("\n")   
